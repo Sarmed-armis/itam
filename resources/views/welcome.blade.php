@@ -554,7 +554,7 @@
                                 <div class="product-default left-details product-widget mb-3">
                                     <figure>
                                         <a href="product.html">
-                                            <img src="{{asset('assets/images/products/home-featured-2.jpg)}}">
+                                            <img src="{{asset('assets/images/products/home-featured-2.jpg')}}">
                                         </a>
                                     </figure>
                                     <div class="product-details">
