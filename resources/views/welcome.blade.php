@@ -54,7 +54,7 @@
                         <div class="header-menu">
                             <ul>
                                 <li><a href="#"><img src="{{asset('assets/images/flags/en.png')}}" alt="England flag">ENGLISH</a></li>
-                                <li><a href="#"><img src="{{asset('assets/images/flags/fr.png'}}" alt="France flag">FRENCH</a></li>
+                                <li><a href="#"><img src="{{asset('assets/images/flags/fr.png')}}" alt="France flag">FRENCH</a></li>
                             </ul>
                         </div><!-- End .header-menu -->
                     </div><!-- End .header-dropown -->
