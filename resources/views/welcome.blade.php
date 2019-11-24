@@ -50,11 +50,11 @@
                     </div><!-- End .header-dropown -->
 
                     <div class="header-dropdown">
-                        <a href="#"><img src="assets/images/flags/en.png" alt="England flag">ENGLISH</a>
+                        <a href="#"><img src="{{asset('assets/images/flags/en.png')}}" alt="England flag">ENGLISH</a>
                         <div class="header-menu">
                             <ul>
-                                <li><a href="#"><img src="assets/images/flags/en.png" alt="England flag">ENGLISH</a></li>
-                                <li><a href="#"><img src="assets/images/flags/fr.png" alt="France flag">FRENCH</a></li>
+                                <li><a href="#"><img src="{{asset('assets/images/flags/en.png')}}" alt="England flag">ENGLISH</a></li>
+                                <li><a href="#"><img src="{{asset('assets/images/flags/fr.png'}}" alt="France flag">FRENCH</a></li>
                             </ul>
                         </div><!-- End .header-menu -->
                     </div><!-- End .header-dropown -->
@@ -294,7 +294,7 @@
                         <div class="col-md-4">
                             <div class="banner banner-image">
                                 <a href="#">
-                                    <img src="assets/images/banners/banner-1.jpg)}}" alt="banner">
+                                    <img src="{{asset('assets/images/banners/banner-1.jpg')}}" alt="banner">
                                 </a>
                             </div><!-- End .banner -->
                         </div><!-- End .col-md-4 -->
@@ -302,7 +302,7 @@
                         <div class="col-md-4">
                             <div class="banner banner-image">
                                 <a href="#">
-                                    <img src="assets/images/banners/banner-2.jpg)}}" alt="banner">
+                                    <img src="{{asset('assets/images/banners/banner-2.jpg')}}" alt="banner">
                                 </a>
                             </div><!-- End .banner -->
                         </div><!-- End .col-md-4 -->
@@ -310,7 +310,7 @@
                         <div class="col-md-4">
                             <div class="banner banner-image">
                                 <a href="#">
-                                    <img src="assets/images/banners/banner-3.jpg" alt="banner">
+                                    <img src="{{asset('assets/images/banners/banner-3.jpg')}}" alt="banner">
                                 </a>
                             </div><!-- End .banner -->
                         </div><!-- End .col-md-4 -->
@@ -428,7 +428,7 @@
                         <div class="product-default">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/home-featured-5.jpg)}}">
+                                    <img src="{{asset('assets/images/products/home-featured-5.jpg')}}">
                                 </a>
                             </figure>
                             <div class="product-details">
@@ -484,7 +484,7 @@
                                 <div class="product-default left-details product-widget mb-3">
                                     <figure>
                                         <a href="product.html">
-                                            <img src="assets/images/products/home-featured-4.jpg)}}">
+                                            <img src="{{asset('assets/images/products/home-featured-4.jpg')}}">
                                         </a>
                                     </figure>
                                     <div class="product-details">
@@ -505,7 +505,7 @@
                                 <div class="product-default left-details product-widget mb-3">
                                     <figure>
                                         <a href="product.html">
-                                            <img src="assets/images/products/small/product-1.jpg)}}">
+                                            <img src="{{asset('assets/images/products/small/product-1.jpg')}}">
                                         </a>
                                     </figure>
                                     <div class="product-details">
@@ -554,7 +554,7 @@
                                 <div class="product-default left-details product-widget mb-3">
                                     <figure>
                                         <a href="product.html">
-                                            <img src="assets/images/products/home-featured-2.jpg)}}">
+                                            <img src="{{asset('assets/images/products/home-featured-2.jpg)}}">
                                         </a>
                                     </figure>
                                     <div class="product-details">
@@ -1163,7 +1163,7 @@
     </div><!-- End .mobile-menu-wrapper -->
 </div><!-- End .mobile-menu-container -->
 
-<div class="newsletter-popup mfp-hide" id="newsletter-popup-form" style="background-image: url(assets/images/newsletter_popup_bg.jpg)">
+<div class="newsletter-popup mfp-hide" id="newsletter-popup-form" style="background-image: {{asset('aassets/images/newsletter_popup_bg.jpg')}}">
     <div class="newsletter-popup-content">
         <img src="{{asset('assets/images/logo-black.png')}}" alt="Logo" class="logo-newsletter">
         <h2>BE THE FIRST TO KNOW</h2>
