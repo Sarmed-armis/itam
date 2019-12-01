@@ -110,7 +110,7 @@
             <div class="container">
                 <div class="header-left">
                     <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="Porto Logo">
+                        <img src="assets/images/l2.png" alt="Porto Logo" height="100" width="100">
                     </a>
                 </div><!-- End .header-left -->
 
@@ -1165,23 +1165,14 @@
 
 <div class="newsletter-popup mfp-hide" id="newsletter-popup-form" style="background-image: {{asset('aassets/images/newsletter_popup_bg.jpg')}}">
     <div class="newsletter-popup-content">
-        <img src="{{asset('assets/images/logo-black.png')}}" alt="Logo" class="logo-newsletter">
+        <img src="{{asset('assets/images/l2.png')}}" alt="Logo" height="50" width="100" >
         <h2>BE THE FIRST TO KNOW</h2>
-        <p>Subscribe to the Porto eCommerce newsletter to receive timely updates from your favorite products.</p>
         <form action="#">
             <div class="input-group">
                 <input type="email" class="form-control" id="newsletter-email" name="newsletter-email" placeholder="Email address" required>
                 <input type="submit" class="btn" value="Go!">
             </div><!-- End .from-group -->
         </form>
-        <div class="newsletter-subscribe">
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox" value="1">
-                    Don't show this popup again
-                </label>
-            </div>
-        </div>
     </div><!-- End .newsletter-popup-content -->
 </div><!-- End .newsletter-popup -->
 <!-- Add Cart Modal -->
