@@ -12,5 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $cats=\App\Category::all();
+    return view('welcome',compact('cats'));
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::post('/Store', 'HomeController@StoreCategory');
