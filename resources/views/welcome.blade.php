@@ -546,7 +546,7 @@
 
                                     <ul>
                                         @foreach($cats as $cat)
-                                            <li><a href="category.html">{{$cat->name}}</a></li>
+                                            <li><a href="{{url('cat/'.$cat->name)}}">{{$cat->name}}</a></li>
                                         @endforeach
                                         <li><a href="#">Checkout</a>
                                             <ul>
