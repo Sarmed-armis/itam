@@ -43,7 +43,7 @@
                         <a href="#">USD</a>
                         <div class="header-menu">
                             <ul>
-                                <li><a href="#">EUR</a></li>
+                                <li><a href="#">AR</a></li>
                                 <li><a href="#">USD</a></li>
                             </ul>
                         </div><!-- End .header-menu -->
@@ -54,7 +54,7 @@
                         <div class="header-menu">
                             <ul>
                                 <li><a href="#"><img src="{{asset('assets/images/flags/en.png')}}" alt="England flag">ENGLISH</a></li>
-                                <li><a href="#"><img src="{{asset('assets/images/flags/fr.png')}}" alt="France flag">FRENCH</a></li>
+                                <li><a href="#"><img src="{{asset('assets/images/flags/ar.png')}}" alt="France flag">Arabic</a></li>
                             </ul>
                         </div><!-- End .header-menu -->
                     </div><!-- End .header-dropown -->
@@ -93,12 +93,12 @@
                         <a href="#">Links</a>
                         <div class="header-menu">
                             <ul>
-                                <li><a href="my-account.html">MY ACCOUNT </a></li>
+                                <li><a href="{{url('/accounts')}}">MY ACCOUNT </a></li>
                                 <li><a href="#">DAILY DEAL</a></li>
                                 <li><a href="#">MY WISHLIST </a></li>
                                 <li><a href="blog.html">BLOG</a></li>
                                 <li><a href="contact.html">Contact</a></li>
-                                <li><a href="#" class="login-link">LOG IN</a></li>
+                                <li><a href="#" class="login-link"></a></li>
                             </ul>
                         </div><!-- End .header-menu -->
                     </div><!-- End .header-dropown -->

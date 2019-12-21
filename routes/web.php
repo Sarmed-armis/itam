@@ -22,3 +22,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/Store', 'HomeController@StoreCategory');
 Route::get('/cat/{id}','CatogController@DisplayCategoryDetail');
+Route::get('/accounts','AccountController@Displayaccounts');
+Route::post('/CreateAccount','AccountController@CreateAccount');
+Route::get('/Dashboard','DashboardController@Dashboard');
+
+
